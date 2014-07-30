@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <link rel="stylesheet" href="css/jeudesdix.css">
+    <script src="jquery.js"></script>
+    <script src="mathsack.js"></script>
+
+</head>
+
+<body>
+
+
+<div class="container">
+
+    <!--accueil-->
+    <div class="accueil hidestart">
+
+        <div class="info">
+
+            <h1>Attention !</h1>
+
+            <p class="texte3">Ce jeu nécessite une grande concentration ainsi qu'un niveau elevé en mathematiques.</p>
+
+            <p class="texte3">Il peut heurter la sensibilité des enfants de moins de 5 ans.</p>
+
+        </div>
+
+        <div class="info">
+
+            <p class="texte4">règles :</p>
+
+            <p class="texte4">Le monstre te veut du mal !</p>
+
+            <p class="texte4">Des chiffres vont t'etre proposés. <br/>Appuis sur ton clavier numerique afin que la somme
+                fasse 10. </p>
+
+            <p class="texte2">Bonne chance !</p>
+
+        </div>
+
+        <a id="start" class="btn" href="#">
+            <p>Start Game</p>
+        </a>
+
+    </div>
+
+    <!--jeu-->
+    <div class="inGame showstart">
+        
+        
+        
+        <a id="restart" class="showstart" href="#">
+            START
+        </a>
+
+        <input type="hidden"/>
+        
+        <div id="wrapper" class="showstart fadeend">
+            <div id="random" class="carre"></div>
+            <div id="play" class="carre"></div>
+        </div>
+
+        <div id="goal" class="showstart">
+           <div class="okno">
+               <img src="images/right.png" alt="" class="ok hideend">
+            <img src="images/wrong.png" alt="" class="no hideend">
+           </div>
+            
+            <!--<p id="numBox"></p>-->
+            <img id='sac' src="images/sac.gif" alt=""/>
+        </div>
+
+        <div id="cage" class="showstart">
+            <img id="monster" src="images/cadavre5.gif" alt=""/>
+        </div>
+            
+        <div id="numGrid" class="showstart hideend">
+            <div>
+                <button class="button">1</button>
+                <button class="button">2</button>
+                <button class="button">3</button>
+            </div>
+
+            <div>
+                <button class="button">4</button>
+                <button class="button">5</button>
+                <button class="button">6</button>
+            </div>
+            <div>
+                <button class="button">7</button>
+                <button class="button">8</button>
+                <button class="button">9</button>
+            </div>
+        </div>
+        <div id="warning" class="showstart hideend">
+            
+        </div>
+        <p class="chrono showstart hideend"></p>
+
+        <div id="afficheur" class="hidestart showend fadeinend">
+            <p class='texte2'></p>
+            <img id="math" class="hisestart showwin" src="images/bbtMath.png" alt=""/>
+            <img id="bad" class="hisestart showloose" src="images/bad.jpg" alt=""/>
+
+            <!--<div id="aim">-->
+            <!--<p class="texte"> > 10</p>-->
+            <!--</div>-->
+        </div>
+<div class='clear'></div>
+
+    </div>
+
+</div>
+
+
+
+</body>
+
+</html>

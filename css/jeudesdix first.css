@@ -1,0 +1,60 @@
+
+.carre{
+    width:50%;
+    height:21rem;
+}
+.titre{
+    color:#e9f205;
+    text-align: center;
+    font-size: 60px;
+    line-height: normal ;
+}
+
+.texte{
+    color:#e9f205;
+    text-align: center;
+    font-size: 100px;
+    line-height: normal;
+}
+
+
+#warning{
+    position: absolute;
+    height:8rem;
+    background-color: #e24545;
+    width: 36%;
+    left: 32%;
+    top: 17.4rem;
+    
+  
+}
+#afficheur{   
+    background-color: #a71dc7;  
+    float: left;
+}
+
+
+    
+
+#dix{
+    
+    background-color: #66acaf;  
+    float: left; 
+}
+
+
+
+#random{
+    
+    background-color: #66acaf;  
+    clear: both;
+    float: left;
+}
+
+
+#win{
+    
+    background-color: #a71dc7;  
+    float: left;
+}
+

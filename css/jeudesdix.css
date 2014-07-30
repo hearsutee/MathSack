@@ -1,0 +1,342 @@
+html{
+height: 100%;
+    background: url(../images/matrice.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+}
+
+.inGame {
+    
+    display: none;
+    
+
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+#wrapper {
+    margin-top: 5rem;
+    margin-left: 15.5rem;
+}
+
+.carre {
+    /*float: left;*/
+    /*width:50%;*/ 
+    /*height:10rem;*/
+    /*border-radius:1.8rem;*/
+    /*opacity: 0.8;*/
+    /*box-shadow:7px 7px 5px 0px rgba(44, 64, 50, 0.75);*/
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+    background: #bfd70e;
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    border: 2px solid #679403;
+}
+
+.btn {
+
+    text-decoration: none;
+    color: white;
+    margin: 0 auto;
+    display: inline-block;
+/*    margin-top: 2rem;*/
+    margin-left: 25rem;
+    padding: 0.5rem;
+    height: 2rem;
+    background-color: lightgreen;
+    border-radius: 1.8rem;
+    box-shadow: 7px 7px 5px 0px rgba(44, 64, 50, 0.75);
+   
+}
+.btn>p{
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.btn:hover {
+    background-color: greenyellow;
+
+}
+
+.titre {
+    color: #e9f205;
+    text-align: center;
+    font-size: 60px;
+    line-height: normal;
+}
+
+.texte {
+    color: yellow;
+    text-align: center;
+    font-size: 100px;
+    margin-top: 1.5rem;
+    line-height: normal;
+}
+
+.texte2 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 100px;
+    margin: 0;
+    line-height: normal;
+}
+
+.texte3 {
+    color: black;
+    text-align: center;
+    padding: 1rem;
+    font-size: 50px;
+    margin: 0;
+    line-height: normal;
+}
+
+.texte4 {
+    color: darkslategrey;
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+    line-height: normal;
+}
+
+.info {
+
+    background-color: rgba(207, 100, 44, 1);
+    border-radius: 1.5rem;
+    margin: 2rem;
+}
+
+#goal {
+    position: relative;
+    clear: both;
+    margin-top: 1rem;
+
+    float: left;
+
+    height: 8rem;
+    width: 50%;
+}
+
+#goal #numBox {
+
+    max-width: 50%;
+    height: 10rem;
+    font-size: 45pt;
+}
+
+#sac {
+    position: absolute;
+    right: -10px;
+
+}
+
+#cage {
+    position: relative;
+    float: left;
+    height: 10rem;
+    width: 500px;
+}
+
+#monster {
+    position: absolute;
+    width: 140px;
+    right: 0;
+}
+
+#warning {
+    /*position: absolute;*/
+    /*left: 7.5%;*/
+    /*top:26.8rem;*/
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    float: left;
+    height: 8rem;
+    /*background-color:blueviolet;*/
+    border-radius: 25px;
+    width: 43%;
+
+}
+
+#warning p {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 70px;
+    margin: 0;
+    padding: 0;
+    line-height: 128px;
+
+}
+
+.chrono {
+  color: whitesmoke;
+    /*position: absolute;*/
+    /*top:40.8rem;*/
+    /*left: 8%;*/
+    float: left;
+    margin-top: 1.5rem;
+    font-size: 45px;
+    margin: 0px;
+    padding: 1rem;
+    width: 50%;
+    height: 8rem;
+
+}
+
+#afficheur {
+    
+    margin-left: 28%;
+    clear: both;
+    float: left;
+    /*position: absolute;*/
+    height: 15rem;
+
+    width: 45%;
+    /*left: 7.5%;*/
+    /*top:7.8rem;*/
+
+}
+
+#afficheur #bad {
+    display: none;
+    margin: 0;
+    width: 100%;
+    height: 20rem;
+    border-radius: 2rem;
+}
+
+#afficheur #math {
+    display: none;
+    margin: 0;
+    width: 100%;
+    height: 20rem;
+    border-radius: 2rem;
+}
+
+.chrono p {
+    text-align: center;
+    font-size: 60px;
+}
+
+#max {
+
+}
+
+#random {
+
+    background-color: #163118;
+    clear: both;
+    float: left;
+}
+
+#play {
+
+    background-color: #d5a8e0;
+    float: left;
+}
+
+#numGrid{
+
+    clear: both;
+
+    width: 13rem;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+#numGrid>div{
+    width: 12rem;
+    margin: 0 auto;
+}
+
+.button {
+    border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#213745), to(#65a9d7));
+    background: -webkit-linear-gradient(top, #213745, #65a9d7);
+    background: -moz-linear-gradient(top, #213745, #65a9d7);
+    background: -ms-linear-gradient(top, #213745, #65a9d7);
+    background: -o-linear-gradient(top, #213745, #65a9d7);
+    padding: 8px 16px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-size: 30px;
+    font-family: Helvetica, Arial, Sans-Serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.button:hover {
+    border-top-color: #28597a;
+    background: #28597a;
+    color: #ccc;
+}
+.button:active {
+    border-top-color: #1b435e;
+    background: #1b435e;
+}
+
+#restart{
+    
+    margin-left: 24rem;
+
+    text-decoration: none;
+    
+   
+    color: orange;
+    font-size: 50px;
+    padding: 15px;
+    border-radius: 2rem;
+    background-color: lightblue;
+    
+}
+
+#restart:hover{
+    
+   background-color: orange;
+    color:lightblue;
+}
+
+.okno{
+   
+    position: absolute;
+    right:15rem;
+    
+    width:50%;
+    height: 12rem;
+}
+
+.okno>.no,.okno>.ok{
+   
+    display: none;
+     position: absolute;
+    width:100%;
+    height: 12rem;
+}
+
+.clear{
+    clear: both;
+}
+/*
+.accueil{
+    height: 100%;
+}*/
